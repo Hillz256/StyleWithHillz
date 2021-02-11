@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  display: grid;
+  place-items: center;
+  width: 90vw;
+  height: 80vh;
+  background: rgba(255, 255, 255, 0.5);
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: poppins;
+  font-size: 90px;
+  position: relative;
+  color: #ffd700;
+  transform: skew(60deg, -15deg) scale(1, 0.5);
+  text-shadow: -1px -1px 1px #aaa, -2px -2px 1px #aaa, -3px -3px 1px #aaa,
+    -4px -4px 1px #aaa, -5px -5px 1px #aaa, -6px -6px 1px #666,
+    -7px -7px 5px #333;
+}
