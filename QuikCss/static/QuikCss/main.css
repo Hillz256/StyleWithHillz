@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: aquamarine;
+  background-color: #94b9af;
 }
 
 .container {
@@ -25,9 +25,9 @@ h1 {
   font-family: poppins;
   font-size: 90px;
   position: relative;
-  color: #ffd700;
+  color: #918420;
   transform: skew(60deg, -15deg) scale(1, 0.5);
   text-shadow: -1px -1px 1px #aaa, -2px -2px 1px #aaa, -3px -3px 1px #aaa,
-    -4px -4px 1px #aaa, -5px -5px 1px #aaa, -6px -6px 1px #666,
+    -4px -4px 1px #aaa, -5px -5px 1px #aaa, -6px -6px 2px #666,
     -7px -7px 5px #333;
 }
